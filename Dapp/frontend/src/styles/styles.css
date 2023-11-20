@@ -1,0 +1,198 @@
+/* styles.css */
+.searchBar {
+    color: white;
+    padding: 0.5rem;
+    border: 0.01rem solid white;
+    border-radius: 5rem;
+}
+
+.tab {
+    border-radius: 2rem;
+}
+
+.icon {
+    color: white
+}
+
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.card {
+    width: 100%;
+    max-width: 90%;
+    /* Adjust the width as needed */
+    display: inline-block;
+    /* Set a maximum width for responsiveness */
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*The header*/
+nav {
+    height: 80px;
+    vertical-align: middle;
+    margin-bottom: 2vw;
+}
+
+/*The pill that contains the cart and ava btn*/
+.ava_pill {
+    background-color: white;
+    border: none;
+    padding: 5px 5px;
+    justify-content: space-between;
+    display: flex;
+    width: 100px;
+}
+
+.nav_head {
+    padding: 7px 20px;
+}
+
+/*List of assets*/
+.assets_area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 900px) {
+    .assets_area {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .assets_area {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*User sidebar*/
+.sidebar {
+    height: 100%;
+    width: 35px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.offcanvas {
+    width: 20vw;
+}
+
+.sidebar_opt {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+.sidebar_opt:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+}
+
+.tran_tb tr:nth-child(even) {
+    background-color: rgba(71, 65, 65, 0.192);
+}
+
+.tb_overflow{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 90vh;
+}
+
+th,td{
+    padding: 10px;
+}
+
+.trans_tb{
+    margin-left: 3vw;
+    text-transform: uppercase;
+}
+
+.logo_cont{
+    margin: 0.75rem 0 0 0.125rem
+}
+
+.checkout_btn{
+    margin: 20px;
+}
+
+
+.price_btn{
+    float:right;
+}
+
+
+.small-badge {
+    max-width: 3em;
+    max-height: 3em;
+    font-size: x-small;
+}
+
+.link_hover{
+	color:white;
+	border-radius: 5px;
+}
+.link_hover:hover{
+	background-color: white;
+	color: #343642;
+	border-radius: 5px;
+	font-weight: bold;
+} 
+
+.request-list {
+    list-style: none;
+    padding: 0;
+}
+
+.request-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+}
+
+.request-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.participants-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.participant-item {
+    border: 1px solid #eee;
+    margin: 5px;
+    padding: 5px;
+}
+
+.participant-info {
+    font-size: 14px;
+    margin: 0;
+}
+
+.approve-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.approve-button:hover {
+    background-color: #0056b3;
+}
